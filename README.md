@@ -6,7 +6,7 @@
 
 - 부트캠프(항해99) 실전 팀프로젝트
 
-  - [Book-ing(북-잉)]() / 🔗[Github](https://github.com/Book-ing)
+  - [Book-ing(북-잉)](https://github.com/Taak-e/TroubleShooting-Retrospective/blob/main/bootcamp-hanghae99_teamproject/Book-ing.md) / 🔗[Github](https://github.com/Book-ing)
 
 - 원티드 프리온보딩 기업 협업과제
 
