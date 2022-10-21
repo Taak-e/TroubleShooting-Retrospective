@@ -6,7 +6,7 @@
 # Issue & TroubleShooting
 - 목차
   1. [다중 선택 카테고리](#다중-선택-카테고리)
-  2. [스터디 노트 WYSIWYG 적용](#스터디-노트-WYSIWYG-적용)
+  2. [스터디 노트 WYSIWYG 에디터 적용](#스터디-노트-wysiwyg-에디터-적용)
 
 ## 다중 선택 카테고리
 
