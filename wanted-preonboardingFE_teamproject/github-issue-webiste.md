@@ -52,8 +52,8 @@
 
 ## 목차
 
-1. [리스트 내 고정된 셀에 광고 이미지 출력하기](#2-고정된-셀에-광고-이미지-출력하기)
-2. [모바일, PC에서 보았을 때 읽기 편하도록 이슈 목록 페이지 UI개발](#1-이슈-목록-페이지-ui-개발)
+1. [리스트 내 고정된 셀에 광고 이미지 출력하기](#1-고정된-셀에-광고-이미지-출력하기)
+2. [모바일, PC에서 보았을 때 읽기 편하도록 이슈 목록 페이지 UI개발](#2-이슈-목록-페이지-ui-개발)
 
 ---
 
@@ -63,10 +63,25 @@
 
 - 문제
   - 이슈 목록페이지에서 다섯번째 셀에는 광고 이미지 출력하기
+
+    ![issue-list](https://user-images.githubusercontent.com/83898103/199915455-86c1ddda-dbbb-4773-9bb6-340c8b46c5e4.jpg)
+
 - 해결방법
-  1. 먼저
-  2. 체크
-  3. 해당
+  1. 제공해주는 api에서는 이슈에 대한 정보를 배열 형태로 전달해주기 때문에 고민했던 방법은 배열 정열 함수 중 map 함수를 이용하기로 했다.
+  2. 가독성을 높이기 위해 광고와 리스트를 각각 컴포넌트화 해서 상위 컴포넌트에서 두 컴포넌트를 조건문으로 재배열 하도록 코드를 작성했다. (사실상 광고는 4번째 배열 한 군데에 무조건 고정되는 방식)
+      ```javascript
+      <Box sx={{ border: '4px dashed grey' }}>
+        <List sx={{ width: '100%', minWidth: 300, bgcolor: 'background.paper' }}>
+          {issues.map((issueInfo, number) => {
+            if (number === 4) {
+              return <ViewAd key={number} />;
+            }
+            return <ViewListItem issueInfo={issueInfo} key={number} />;
+          })}
+        </List>
+      </Box>
+      ```
+  3. components/viewList 아래 ViewAd 와 ViewListItem 을 각각 컴포넌트화 해주고 ViewTemplate 라는 컴포넌트로 가져오고 관심사의 분리를 통해 코드의 재사용성과 가독성을 올릴 수 있었다. 
 
 ---
 
