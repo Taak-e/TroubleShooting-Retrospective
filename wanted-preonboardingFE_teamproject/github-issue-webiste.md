@@ -129,7 +129,7 @@
 
     - 변수, 함수, 클래스명 무엇이든 가장 먼저 누구나 이해할 수 있는 이름으로 이름을 짓는 것이 중요하다.
     - 이름의 길이를 줄이는 것 보다는 이름이 명확한 뜻을 가지고 있는것이 더 중요하다.
-    - 🔗 [좋은 이름 짓기에 대한 참조 글_1]([https://soojin.ro/blog/naming-boolean-variables](https://velog.io/@humonnom/%EB%84%A4%EC%9D%B4%EB%B0%8D-%EC%BB%A8%EB%B2%A4%EC%85%98%EA%B3%BC-%EB%B3%80%EC%88%98%EC%9D%B4%EB%A6%84-%EC%A7%93%EA%B8%B0))
+    - 🔗 [좋은 이름 짓기에 대한 참조 글_1]([https://soojin.ro/blog/naming-boolean-variables](https://velog.io/@humonnom/%EB%84%A4%EC%9D%B4%EB%B0%8D-%EC%BB%A8%EB%B2%A4%EC%85%98%EA%B3%BC-%EB%B3%80%EC%88%98%EC%9D%B4%EB%A6%84-%EC%A7%93%EA%B8%B0)
     - 🔗 [좋은 이름 짓기에 대한 참조 글_2](https://soojin.ro/blog/naming-boolean-variables)
 
   - 반복 줄이기(Don't Repeat Yourself)
