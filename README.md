@@ -16,4 +16,4 @@
 
 - 개인 프로젝트
 
-  - [TodoList (~ing)](https://github.com/Taak-e/TroubleShooting-Retrospective/blob/main/personal-project/todo-list.md) / 🔗 Github
+  - [TodoList (~ing)](https://github.com/Taak-e/TroubleShooting-Retrospective/blob/main/personal-project/todo-list.md) / 🔗 [Github](https://github.com/Taak-e/wanted-pre-onboarding-fe)
